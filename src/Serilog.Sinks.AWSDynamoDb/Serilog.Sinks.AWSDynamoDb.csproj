@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>A Serilog sink for .Net Core that writes events to AWS DynamoDB</Description>
+    <VersionPrefix>0.0.2</VersionPrefix>
+    <Authors>Julio Avellaneda</Authors>
+    <Title>Serilog.Sinks.AWSDynamoDb</Title>
+    <Summary>Serilog sink that writes events to AWS DynamoDB table</Summary>
+    <Copyright>Copyright © Julio Avellaneda 2018</Copyright>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AssemblyName>Serilog.Sinks.AWSDynamoDb</AssemblyName>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Serilog.Sinks.AWSDynamoDb</RootNamespace>
+    <PackageId>Serilog.Sinks.AWSDynamoDb</PackageId>
+    <PackageTags>serilog;sinks;aws;DynamoDB</PackageTags>
+    <PackageIconUrl>https://www.nuget.org/Content/gallery/img/default-package-icon.svg</PackageIconUrl>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.6.0" />
+    <PackageReference Include="Serilog.Sinks.PeriodicBatching" Version="2.1.1" />
+    <PackageReference Include="AWSSDK.Core" Version="3.3.21.17" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.3.6.2" />
+  </ItemGroup>
+
+</Project>
