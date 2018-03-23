@@ -5,7 +5,11 @@ A Serilog sink for .Net Core that writes events to an AWS DynamoDB table. (This 
 
 ## Getting started
 
-Install the Serilog.Sinks.AWSDynamoDB package from Nuget (soon)
+Install the [Serilog.Sinks.AWSDynamoDB](https://www.nuget.org/packages/Serilog.Sinks.AWSDynamoDb) package from Nuget
+
+```powershell
+Install-Package Serilog.Sinks.AWSDynamoDB
+```
 
 To configure the sink, add a call to the `AwsDynamoDb` extension method:
 
