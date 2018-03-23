@@ -1,6 +1,6 @@
 # Serilog.Sinks.AWSDynamoDB
 
-A Serilog sink for .Net Core that writes events to an AWS DynamoDB table. (This is inspirates by the original sink [serilog-sinks-dynamodb
+A Serilog sink for .Net Core that writes events to an AWS DynamoDB table. (This is inspired by the original sink [serilog-sinks-dynamodb
 ](https://github.com/serilog/serilog-sinks-dynamodb))
 
 ## Getting started
