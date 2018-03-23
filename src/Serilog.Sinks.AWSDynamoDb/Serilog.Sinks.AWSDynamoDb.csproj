@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Description>A Serilog sink for .Net Core that writes events to AWS DynamoDB</Description>
-    <VersionPrefix>0.0.2</VersionPrefix>
+    <VersionPrefix>0.0.3</VersionPrefix>
     <Authors>Julio Avellaneda</Authors>
     <Title>Serilog.Sinks.AWSDynamoDb</Title>
     <Summary>Serilog sink that writes events to AWS DynamoDB table</Summary>
@@ -14,6 +14,7 @@
     <PackageId>Serilog.Sinks.AWSDynamoDb</PackageId>
     <PackageTags>serilog;sinks;aws;DynamoDB</PackageTags>
     <PackageIconUrl>https://www.nuget.org/Content/gallery/img/default-package-icon.svg</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/julitogtu/serilog-sinks-awsdynamodb</PackageProjectUrl>
     <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
